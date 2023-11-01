@@ -68,11 +68,11 @@ h2 {
 .items-center {
   align-items: center;
 }
-.absolute {
-  position: absolute;
-}
 .relative {
   position: relative;
+}
+.absolute {
+  position: absolute;
 }
 .text-center {
   text-align: center;
