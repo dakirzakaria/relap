@@ -258,16 +258,16 @@ h1{
   font-size: 24px;
   color: var(--gray-color);
 }
-.hero{
-  overflow: hidden;
-}
 .hero-background-container{
   background-image: none;
 }
 .hero-container {
   padding: 90px 15px;
-  background: url(./img/hero-bg-mobile.png) no-repeat center bottom / contain;
-  height: 860px;
+  background: url(./img/hero-bg-mobile.png);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: contain;
+  height: 800px;
 }
 .hero-content {
   max-width: 100%;
