@@ -371,6 +371,7 @@ gap: 100px;
 .tempribus-content-container {
   padding: 152px 16px;
   gap: 50px 230px;
+  overflow-y: hidden;
 }
 .temporibus-image-group {
   max-width: 370px;
