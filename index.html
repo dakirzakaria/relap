@@ -11,65 +11,75 @@
   <title>Relap</title>
 </head>
 <body>
-  <header class="position-absolute d-flex align-items-center">
+  <header class="container position-absolute d-flex justify-content-between align-items-center">
     <a class="logo text-white font-bold" href="#">RELAP</a>
-    <nav>
-      <ul class="nav-header d-flex source-font font-semi-bold">
-        <li class="position-relative"><a class="text-white" href="#">Home</a></li>
-        <li class="position-relative"><a class="text-white" href="#">Fatures</a></li>
-        <li class="position-relative"><a class="text-white" href="#">Works</a></li>
-        <li class="position-relative"><a class="text-white" href="#">About</a></li>
-        <li class="position-relative"><a class="text-white" href="#">People</a></li>
-        <li class="position-relative"><a class="text-white" href="#">News</a></li>
-      </ul>
-    </nav>
-    <a class="button button-header source-font font-bold" href="#">Contact us</a>
-    <button class="burger-menu"><i class="fa-solid fa-bars"></i></button>
+      <nav class="nav">
+        <ul class="list d-flex align-items-center justify-content-between">
+          <li class="position-relative link"><a class="text-white source-font font-semi-bold" href="#">Home</a></li>
+          <li class="position-relative link"><a class="text-white source-font font-semi-bold" href="#">Features</a></li>
+          <li class="position-relative link"><a class="text-white source-font font-semi-bold" href="#">Works</a></li>
+          <li class="position-relative link"><a class="text-white source-font font-semi-bold" href="#">About</a></li>
+          <li class="position-relative link"><a class="text-white source-font font-semi-bold" href="#">People</a></li>
+          <li class="position-relative link"><a class="text-white source-font font-semi-bold" href="#">News</a></li>
+        </ul>
+      </nav>
+      <a class="button button-header" href="#">Contact Us</a>
+      <!-- <button class="burger-nav"><i class="fa-solid fa-bars"></i></button> -->
+      <label class="burger-nav display-hidden" for="burger-nav"><i class="fa-solid fa-bars"></i></label>
+      <input hidden class="burger-nav-checkbox" type="checkbox" name="burger-nav" id="burger-nav">
+      <div class="burger-nav-list display-hidden position-absolute">
+        <ul class="burger-nav-list-link">
+          <li class="tempribus-container"><a class="source-font font-semi-bold position-relative link text-gray" href="#">Home</a></li>
+          <li class="tempribus-container"><a class="source-font font-semi-bold position-relative link text-gray" href="#">Features</a></li>
+          <li class="tempribus-container"><a class="source-font font-semi-bold position-relative link text-gray" href="#">Works</a></li>
+          <li class="tempribus-container"><a class="source-font font-semi-bold position-relative link text-gray" href="#">About</a></li>
+          <li class="tempribus-container"><a class="source-font font-semi-bold position-relative link text-gray" href="#">People</a></li>
+          <li class="tempribus-container"><a class="source-font font-semi-bold position-relative link text-gray" href="#">News</a></li>
+          <li class="tempribus-container"><a class="source-font button font-semi-bold button-burger text-center" href="#">Contact Us</a></li>
+        </ul>
+      </div>
   </header>
   <main>
     <section class="hero">
-      <div class="hero-background-container margin-center">
-        <div class="hero-container d-flex justify-content-center margin-center">
-          <div class="hero-content text-white">
-            <h1>Omnis Voluptas</h1>
-            <p class="hero-paragraph source-font">Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.</p>
-            <a class="button yellow-button font-bold source-font" href="#">Explore</a>
-          </div>
-          <div class="social-media-icons social-media-icons-hero d-flex align-items-center">
-            <a class="icon icon-hero d-flex justify-content-center align-items-center" href="#"><i class="fa-brands fa-facebook-f"></i></a>
-            <a class="icon icon-hero d-flex justify-content-center align-items-center" href="#"><i class="fa-brands fa-twitter"></i></a>
-            <a class="icon icon-hero d-flex justify-content-center align-items-center" href="#"><i class="fa-brands fa-instagram"></i></a>
-          </div>
+      <div class="hero-container container d-flex justify-content-between">
+        <div class="hero-content text-white">
+          <h1>Omnis Voluptas</h1>
+          <p class="hero-paragraph source-font font-semi-bold">Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.</p>
+          <a class="button yellow-button" href="#">Explore</a>
+      </div>
+        <div class="social-media-icons social-media-icons-hero d-flex align-items-center">
+          <a class="icon icon-hero d-flex justify-content-center align-items-center" href="#"><i class="fa-brands fa-facebook-f"></i></a>
+          <a class="icon icon-hero d-flex justify-content-center align-items-center" href="#"><i class="fa-brands fa-twitter"></i></a>
+          <a class="icon icon-hero d-flex justify-content-center align-items-center" href="#"><i class="fa-brands fa-instagram"></i></a>
         </div>
       </div>
-      </div>
     </section>
-    <section class="corporis margin-center d-flex justify-content-center">
-      <div class="corporis-content text-gray">
-        <span class="text-uppercase font-bold">Quis autem</span>
-        <h2 class="corporis-title">Corporis suscipit laboriosam</h2>
-        <details>
-          <summary class="summary source-font font-semi-bold">Totam rem aperiam</summary>
-          <p class="details-paragraph source-font text-gray">Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumend   a est, omnis dolor repellendus.</p>
-        </details>
-        <details >
-          <summary class="summary source-font font-semi-bold">Eaque ipsa quae</summary>
-          <p class="details-paragraph source-font text-gray">Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumend   a est, omnis dolor repellendus.</p>
-        </details>
-        <details >
-          <summary class="summary source-font font-semi-bold">Inventore veritatis</summary>
-          <p class="details-paragraph source-font text-gray">Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumend   a est, omnis dolor repellendus.</p>
-        </details>
-      </div>
-      <div class="corporis-video position-relative">
-        <img class="corporis-image" src="./img/corporis-video.png" alt="Corporis Video" width="100%" height="100%">
-        <button class="play-button position-relative d-flex justify-content-center align-items-center"><i class="fa-solid fa-play"></i></button>
-      </div>
+    <section class="corporis d-flex justify-content-center flex-wrap container">
+        <div class="corporis-content text-gray">
+          <span class="text-uppercase font-bold">Quis autem</span>
+          <h2 class="corporis-title">Corporis suscipit laboriosam</h2>
+          <details class="details source-font">
+            <summary class="summary text-gray font-semi-bold position-relative cursor-pointer">Totam rem aperiam</summary>
+            <p class="details-paragraph text-gray opacity-0">Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumend   a est, omnis dolor repellendus.</p>
+          </details>
+          <details class="details  source-font">
+            <summary class="summary text-gray font-semi-bold position-relative cursor-pointer">Eaque ipsa quae</summary>
+            <p class="details-paragraph text-gray opacity-0">Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumend   a est, omnis dolor repellendus.</p>
+          </details>
+          <details class="details  source-font">
+            <summary class="summary text-gray font-semi-bold position-relative cursor-pointer">Inventore veritatis</summary>
+            <p class="details-paragraph text-gray opacity-0">Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumend   a est, omnis dolor repellendus.</p>
+          </details>
+        </div>
+        <div class="corporis-video position-relative">
+          <img class="corporis-video-poster" src="./img/corporis-video-poster.png" alt="corporis-video-poster" width="100%" height="100%">
+          <button class="play-button position-absolute cursor-pointer"><i class="fa-solid fa-play"></i></button>
+        </div>
     </section>
     <section class="ullam">
-      <div class="ullam-container margin-center">
-        <div class="ullam-content text-gray d-flex flex-wrap">
-          <div class="ullam-title">
+      <div class="ullam-container container">
+        <div class="ullam-content text-gray d-flex flex-wrap justify-content-between">
+          <div class="ullam-title-container">
             <span class="text-uppercase font-bold">Nisi ut aliquid</span>
             <h2>Ullam corporis suscipit</h2>
           </div>
@@ -78,30 +88,30 @@
           </div>
         </div>
         <div class="ullam-nav-button source-font d-flex flex-wrap">
-          <button class="ullam-button text-gray active">Quis Autem</button>
-          <button class="ullam-button text-gray display">Reprehenderit</button>
-          <button class="ullam-button text-gray display">Voluptate</button>
-          <button class="ullam-button text-gray display">Molestiae</button>
-          <button class="ullam-button text-gray display">Consequatur</button>
+          <button class="ullam-button text-gray cursor-pointer active">Quis Autem</button>
+          <button class="ullam-button text-gray cursor-pointer opacity-0">Reprehenderit</button>
+          <button class="ullam-button text-gray cursor-pointer opacity-0">Voluptate</button>
+          <button class="ullam-button text-gray cursor-pointer opacity-0">Molestiae</button>
+          <button class="ullam-button text-gray cursor-pointer opacity-0">Consequatur</button>
         </div>
         <div class="ullam-image-group d-flex align-items-center justify-content-center flex-wrap">
-          <div class="ullam-image">
+          <div class="ullam-image position-relative">
             <img src="./img/ullam-image-one.png" alt="Iamge Ullam" width="100%" height="100%">
-            <div class="ullam-image-content text-white">
+            <div class="ullam-image-content text-white position-absolute">
               <h3>Exercitation</h3>
               <span class="opacity-0 source-font">Ullamco laboris</span>
             </div>
           </div>
-          <div class="ullam-image">
+          <div class="ullam-image position-relative">
             <img src="./img/ullam-image-two.png" alt="Iamge Ullam" width="100%" height="100%">
-            <div class="ullam-image-content text-white">
+            <div class="ullam-image-content text-white position-absolute">
               <h3>Exercitation</h3>
               <span class="opacity-0 source-font">Ullamco laboris</span>
             </div>
           </div>
-          <div class="ullam-image">
+          <div class="ullam-image position-relative">
             <img src="./img/ullam-image-three.png" alt="Iamge Ullam" width="100%" height="100%">
-            <div class="ullam-image-content text-white">
+            <div class="ullam-image-content text-white position-absolute">
               <h3>Exercitation</h3>
               <span class="opacity-0 source-font">Ullamco laboris</span>
             </div>
@@ -112,128 +122,133 @@
         </div>
       </div>
     </section>
-    <section class="fugiat margin-center text-gray">
-      <h2 class="text-center">Fugiat quo</h2>
-      <p class="fugiat-paragraph text-center source-font font-semi-bold">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+    <section class="fugiat container text-gray text-center">
+      <h2>Fugiat quo</h2>
+      <p class="fugiat-paragraph source-font font-semi-bold">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
       <div class="card-wrapper d-flex justify-content-center align-items-center flex-wrap">
         <a href="#">
-          <article class="card  text-gray text-center">
-            <h3 class="card-title card-title-one">Consequuntur</h3>
-            <p class="opacity-0 source-font">Enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit</p>
+          <article class="card">
+            <h3 class="card-title card-title-one text-gray  position-relative margin-center font-bold">Consequuntur</h3>
+            <p class="text-gray source-font opacity-0">Enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit</p>
           </article>
       </a>
         <a href="#">
-          <article class="card text-gray text-center">
-            <h3 class="card-title card-title-two">Voluptatem</h3>
-            <p class="opacity-0 source-font">Sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam</p>
+          <article class="card">
+            <h3 class="card-title card-title-two text-gray position-relative margin-center font-bold">Voluptatem</h3>
+            <p class="text-gray source-font opacity-0">Sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam</p>
           </article>
       </a>
         <a href="#">
-          <article class="card text-gray text-center">
-            <h3 class="card-title card-title-three">Quisquam</h3>
-            <p class="opacity-0 source-font">Quis nostrum exercitationem ullam corporis suscipit laboriosam</p>
+          <article class="card">
+            <h3 class="card-title card-title-three text-gray position-relative margin-center font-bold">Quisquam</h3>
+            <p class="text-gray source-font opacity-0">Quis nostrum exercitationem ullam corporis suscipit laboriosam</p>
           </article>
       </a>
         <a href="#">
-          <article class="card text-gray text-center">
-            <h3 class="card-title card-title-four">Aliquid</h3>
-            <p class="opacity-0 source-font">Quis autem vel eum iure reprehenderit voluptate velit esse quam nihil</p>
+          <article class="card">
+            <h3 class="card-title card-title-four text-gray position-relative margin-center font-bold">Aliquid</h3>
+            <p class="text-gray source-font opacity-0">Quis autem vel eum iure reprehenderit voluptate velit esse quam nihil</p>
           </article>
       </a>
         <a href="#">
-          <article class="card text-gray text-center">
-            <h3 class="card-title card-title-five">Excepteur</h3>
-            <p class="opacity-0 source-font">Sint occaecat cupidatat non proident culpa qui officia deserunt mollit anim</p>
+          <article class="card">
+            <h3 class="card-title card-title-five text-gray position-relative margin-center font-bold">Excepteur</h3>
+            <p class="text-gray source-font opacity-0">Sint occaecat cupidatat non proident culpa qui officia deserunt mollit anim</p>
           </article>
       </a>
         <a href="#">
-          <article class="card text-gray text-center">
-            <h3 class="card-title card-title-six">Accusamus</h3>
-            <p class="opacity-0 source-font">Odio dignissimos ducimus qui blanditiis praesentium voluptatum</p>
+          <article class="card">
+            <h3 class="card-title card-title-six text-gray position-relative margin-center font-bold">Accusamus</h3>
+            <p class="text-gray source-font opacity-0">Odio dignissimos ducimus qui blanditiis praesentium voluptatum</p>
           </article>
       </a>
       </div>
     </section>
-    <section class="temporibus">
-      <div class="temporibus-container position-relative margin-center d-flex justify-content-center align-items-center flex-wrap">
-        <div class="temporibus-image-group position-relative">
-          <div class="image-group-background d-flex justify-content-center align-items-center">
-            <img src="./img/image-group-bg.png" alt="image-group-bg" width="100%">
+    <section class="tempribus">
+      <div class="tempribus-container position-relative margin-center">
+        <div class=" tempribus-content-container container d-flex align-items-center justify-content-center flex-wrap">
+          <div class="temporibus-image-group position-relative">
+            <div class="image-group-background d-flex justify-content-center align-items-center">
+              <img src="./img/image-group-bg.png" alt="image-group-bg" width="100%">
+            </div>
+            <div class="position-absolute image-person-one d-flex justify-content-center align-items-center">
+              <img src="./img/temporibus-person-one.png" alt="image-person">
+            </div>
+            <div class="position-absolute image-person-two d-flex justify-content-center align-items-center">
+              <img src="./img/temporibus-person-two.png" alt="image-person">
+            </div>
+            <div class="position-absolute image-person-three d-flex justify-content-center align-items-center">
+              <img src="./img/temporibus-person-three.png" alt="image-person">
+            </div>
+            <div class="position-absolute image-person-four d-flex justify-content-center align-items-center">
+              <img src="./img/temporibus-person-four.png" alt="image-person">
+            </div>
+            <div class="position-absolute image-person-five d-flex justify-content-center align-items-center">
+              <img src="./img/temporibus-person-five.png" alt="image-person">
+            </div>
           </div>
-          <div class="position-absolute image-person-one d-flex justify-content-center align-items-center">
-            <img src="./img/temporibus-person-one.png" alt="image-person">
+          <div class="temporibus-content text-white">
+            <span class="temporibus-span text-uppercase font-bold">Repellendus</span>
+            <h2>Temporibus quibusdam</h2>
+            <p class="temporibus-paragraph">Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est.</p>
+            <a class="button yellow-button font-bold source-font" href="#">Our team</a>
           </div>
-          <div class="position-absolute image-person-two d-flex justify-content-center align-items-center">
-            <img src="./img/temporibus-person-two.png" alt="image-person">
+          <div class="temporibus-bubble temporibus-bubble-top position-absolute">
+            <img src="./img/temporibus-bubble-top.png" alt=""/>
           </div>
-          <div class="position-absolute image-person-three d-flex justify-content-center align-items-center">
-            <img src="./img/temporibus-person-three.png" alt="image-person">
+          <div class="temporibus-bubble temporibus-bubble-left position-absolute">
+            <img src="./img/temporibus-bubble-left.png" alt=""/>
           </div>
-          <div class="position-absolute image-person-four d-flex justify-content-center align-items-center">
-            <img src="./img/temporibus-person-four.png" alt="image-person">
-          </div>
-          <div class="position-absolute image-person-five d-flex justify-content-center align-items-center">
-            <img src="./img/temporibus-person-five.png" alt="image-person">
+          <div class="temporibus-bubble temporibus-bubble-bottom position-absolute">
+            <img src="./img/temporibus-bubble-bottom.svg" alt=""/>
           </div>
         </div>
-        <div class="temporibus-content text-white">
-          <span class="temporibus-span text-uppercase font-bold">Repellendus</span>
-          <h2>Temporibus quibusdam</h2>
-          <p class="temporibus-paragraph">Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est.</p>
-          <a class="button yellow-button font-bold source-font" href="#">Our team</a>
-        </div>
-        <div class="temporibus-bubble temporibus-bubble-top position-absolute">
-          <img src="./img/temporibus-bubble-top.png" alt=""/>
-        </div>
-        <div class="temporibus-bubble temporibus-bubble-left position-absolute">
-          <img src="./img/temporibus-bubble-left.png" alt=""/>
-        </div>
-        <div class="temporibus-bubble temporibus-bubble-bottom position-absolute">
-          <img src="./img/temporibus-bubble-bottom.svg" alt=""/>
         </div>
       </div>
     </section>
-    <section class="officis margin-center">
-      <h2 class="text-center text-gray">Officis debitis</h2>
-      <p class="officis-paragraph text-gray text-center source-font font-semi-bold">Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repella.</p>
+    <section class="officis container text-gray">
+      <h2 class=" text-center">Officis debitis</h2>
+      <p class="officis-paragraph source-font font-semi-bold  text-center">Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repella.</p>
       <div class="quote-card-wrapper d-flex justify-content-center align-items-center flex-wrap">
         <article class="quote-card text-gray source-font">
           <q class="quote quote-one d-block">"Voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis"</q>
-          <span class="font-semi-bold d-block">Evelyn Allen</span>
+          <span class="font-semi-bold">Evelyn Allen</span>
         </article>
         <article class="quote-card text-gray source-font">
           <q class="quote quote-two d-block">"Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores"</q>
-          <span class="font-semi-bold d-block">Malin Quist</span>
+          <span class="font-semi-bold">Malin Quist</span>
         </article>
         <article class="quote-card text-gray source-font">
           <q class="quote quote-three d-block">"Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci numquam eius"</q>
-          <span class="font-semi-bold d-block">Pan Su</span>
+          <span class="font-semi-bold">Pan Su</span>
         </article>
       </div>
       <div class="partners-wrapper d-flex flex-wrap justify-content-center align-items-center opacity-0">
-        <img src="./img/partners-one.png" alt="partners-one"/>
-          <img src="./img/partners-two.png" alt="partners-two"/>
-          <img src="./img/partners-three.png" alt="partners-three"/>
-          <img src="./img/partners-four.png" alt="partners-four"/>
-          <img src="./img/partners-five.png" alt="partners-five"/>
-          <img src="./img/partners-six.png" alt="partners-six"/>
+        <a href=""><img src="./img/partners-one.png" alt="partners-one"/></a>
+          <a href=""><img src="./img/partners-two.png" alt="partners-two"/></a>
+          <a href=""><img src="./img/partners-three.png" alt="partners-three"/></a>
+          <a href=""><img src="./img/partners-four.png" alt="partners-four"/></a>
+          <a href=""><img src="./img/partners-five.png" alt="partners-five"/></a>
+          <a href=""><img src="./img/partners-six.png" alt="partners-six"/></a>
       </div>
     </section>
     <section class="omnis">
-      <div class="omnis-container d-flex flex-wrap justify-content-center margin-center">
-        <div class="omnis-content">
-          <span class="omnis-span text-uppercase font-bold text-gray">Nisi ut aliquid</span>
-          <h2>Omnis voluptas assumenda</h2>
-          <p class="omnis-paragraph text-gray source-font font-semi-bold">Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est.</p>
-          <a class="button pink-button font-bold source-font" href="#">Our blog</a>  
-        </div>        
-        <div class="omnis-image position-relative">
-          <div class="omnis-image-content position-absolute text-white">
-            <h3 class="font-bold">Itaque earum rerum</h3>
-            <p class="omnis-image-paragraph opacity-0 source-font">Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates</p>
-            <div class="omnis-profile d-flex align-items-center">
-              <img src="./img/omnis-profile-image.png" alt="Profile">
-              <span class="text-white source-font font-semi-bold">Adaora Azubuike</span>
+      <div class="omnis-container container d-flex justify-content-center flex-wrap">
+        <div class="omnis-content text-gray">
+          <span class="omnis-span font-bold text-uppercase">Nisi ut aliquid</span>
+          <h2 class="font-bold">Omnis voluptas assumenda</h2>
+          <p class="omnis-paragraph source-font font-semi-bold">Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est.</p>
+          <a class="button pink-button" href="#">Our blog</a>
+        </div>
+        <div class="omnis-image-container">
+          <div class="omnis-image position-relative">
+            <div class="image-content position-absolute text-white">
+              <h3>Itaque earum rerum</h3>
+              <p class="image-content-paragraph source-font opacity-0">Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates</p>
+              <div class="profile-image d-flex align-items-center">
+                <img src="./img/omnis-profile-image.png" alt="">
+                <span class="text-white source-font fa-solid">Adaora Azubuike</span>
+              </div>
             </div>
           </div>
         </div>
@@ -241,37 +256,37 @@
     </section>
   </main>
   <footer>
-    <div class="main-footer">
-      <h2 class="text-gray text-center">Contact Us</h2>
-      <p class="main-footer-paragraph text-center text-gray font-semi-bold source-font">Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas.</p>
+    <div class="main-footer text-center text-gray">
+      <h2>Contact Us</h2>
+      <p class="main-footer-paragraph font-semi-bold source-font">Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas.</p>
       <form class="email-form d-flex justify-content-center align-items-center flex-wrap" action="#" method="post">
         <input class="email-input" type="email" placeholder="Your email">
-        <input class="button pink-button font-bold source-font" type="submit" value="Send">
+        <input class="button pink-button font-bold cursor-pointer" type="submit" value="Send">
       </form>
     </div>
     <div class="base-footer d-flex justify-content-center flex-wrap margin-center">
       <div class="footer-quick-links">
         <h3 class="text-gray font-semi-bold source-font">Consectetur</h3>
         <ul>
-          <li class="quick-link position-relative"><a class="text-gray opacity-0 source-font" href="#">Adipiscing</a></li>
-          <li class="quick-link position-relative"><a class="text-gray opacity-0 source-font" href="#">Elit</a></li>
-          <li class="quick-link position-relative"><a class="text-gray opacity-0 source-font" href="#">Eiusmod</a></li>
+          <li class="quick-link position-relative link"><a class="text-gray opacity-0 source-font" href="#">Adipiscing</a></li>
+          <li class="quick-link position-relative link"><a class="text-gray opacity-0 source-font" href="#">Elit</a></li>
+          <li class="quick-link position-relative link"><a class="text-gray opacity-0 source-font" href="#">Eiusmod</a></li>
         </ul>
       </div>
       <div class="footer-quick-links">
         <h3 class="text-gray font-semi-bold source-font">Tempor</h3>
         <ul>
-          <li class="quick-link position-relative"><a class="text-gray opacity-0 source-font" href="#">Incididunt</a></li>
-          <li class="quick-link position-relative"><a class="text-gray opacity-0 source-font" href="#">Labore</a></li>
-          <li class="quick-link position-relative"><a class="text-gray opacity-0 source-font" href="#">Dolore</a></li>
+          <li class="quick-link position-relative link"><a class="text-gray opacity-0 source-font" href="#">Incididunt</a></li>
+          <li class="quick-link position-relative link"><a class="text-gray opacity-0 source-font" href="#">Labore</a></li>
+          <li class="quick-link position-relative link"><a class="text-gray opacity-0 source-font" href="#">Dolore</a></li>
         </ul>
       </div>
       <div class="footer-quick-links">
         <h3 class="text-gray font-semi-bold source-font">Magna</h3>
         <ul>
-          <li class="quick-link position-relative"><a class="text-gray opacity-0 source-font" href="#">Aliqua</a></li>
-          <li class="quick-link position-relative"><a class="text-gray opacity-0 source-font" href="#">Minim</a></li>
-          <li class="quick-link position-relative"><a class="text-gray opacity-0 source-font" href="#">Veniam</a></li>
+          <li class="quick-link position-relative link"><a class="text-gray opacity-0 source-font" href="#">Aliqua</a></li>
+          <li class="quick-link position-relative link"><a class="text-gray opacity-0 source-font" href="#">Minim</a></li>
+          <li class="quick-link position-relative link"><a class="text-gray opacity-0 source-font" href="#">Veniam</a></li>
         </ul>
       </div>
       <div class="social-media">
