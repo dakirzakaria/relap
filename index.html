@@ -2,262 +2,236 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"> 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="responsive.css">
-  <link rel="icon" href="./img/icon.png">
-  <title>Relap</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="author" content="Zakaria Dakir">
+  <meta name="description"
+    content="Discover our innovative web solutions, featuring top-notch design, accessibility, and user experience. From concept to execution, we deliver results that meet your needs.">
+  <meta name="keywords"
+    content="web design, creative solutions, user experience, responsive design, front-end development, accessibility, Poppins font, Source Sans, Remixicon, custom web projects">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css">
+  <link rel="stylesheet" href="./styles.css">
+  <title>Relap - Creative Web Design and User-Centered Digital Solutions</title>
 </head>
 <body>
-  <header class="container d-flex justify-content-between align-items-center">
-    <a href="#" class="logo font-bold white-text">RELAP</a>
-    <nav class="nav">
-      <ul class="d-flex justify-content-between align-items-center">
-        <li><a href="#" class="nav-link white-text font-semi-bold source-font">Home</a></li>
-        <li><a href="#" class="nav-link white-text font-semi-bold source-font">Features</a></li>
-        <li><a href="#" class="nav-link white-text font-semi-bold source-font">Works</a></li>
-        <li><a href="#" class="nav-link white-text font-semi-bold source-font">About</a></li>
-        <li><a href="#" class="nav-link white-text font-semi-bold source-font">People</a></li>
-        <li><a href="#" class="nav-link white-text font-semi-bold source-font">News</a></li>
-      </ul>
-    </nav>
-    <a href="#" class="header-button button transition">Contact Us</a>
-    <label for="burger-icon" class="burger-icon d-none"><i class="fa-solid fa-bars pink-text"></i></label>
-    <input class="burger-input d-none" type="checkbox" name="burger-icon" id="burger-icon">
-    <nav class="burger-nav d-none">
-      <ul class="burger-nav-list">
+  <header class="header container flex justify-between items-center"><a href="#" class="logo poppins-font">RELAP</a>
+    <nav>
+      <ul class="header-links flex justify-between source-font">
         <li><a href="#">Home</a></li>
         <li><a href="#">Features</a></li>
         <li><a href="#">Works</a></li>
         <li><a href="#">About</a></li>
         <li><a href="#">People</a></li>
         <li><a href="#">News</a></li>
-        <li><a href="#" class="burger-nav-button">Contact Us</a></li>
       </ul>
-    </nav>
+    </nav><a href="#" class="header-button button">Contact Us</a><button
+      class="burger-button"><span></span><span></span><span></span></button>
   </header>
   <main>
     <section class="hero">
-      <div class="hero-container relative d-flex justify-content-center align-items-center margin-center">
-        <div class="hero-content">
-          <h1 class="white-text">Omnis Voluptas</h1>
-          <p class="white-text source-font font-semi-bold">Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.</p>
-          <a href="#" class="yellow-button button transition">Explore</a>
-        </div>
-        <div class="laptop relative">
-          <img src="./img/background-hero.png" alt="Laptop">
-          <div class="social-media-icon d-flex align-items-center justify-content-center absolute">
-            <a href="#" class="d-flex align-items-center justify-content-center transition"><i class="fa-brands fa-facebook-f white-text transition"></i></a>
-            <a href="#" class="d-flex align-items-center justify-content-center transition"><i class="fa-brands fa-twitter white-text transition"></i></a>
-            <a href="#" class="d-flex align-items-center justify-content-center transition"><i class="fa-brands fa-x-twitter white-text transition"></i></a>
-          </div>
-        </div>
-        <div class="bubble-top absolute"><img src="./img/b-right.png" alt="Bubble"></div>
-        <div class="bubble-bottom absolute"><img src="./img/b-bottom.svg" alt="Bubble"></div>
-        <div class="bubble-center absolute"><img src="./img/b-center.svg" alt="Bubble"></div>
-        <div class="bubble-botoom-right absolute"><img src="./img/b-bottom-right.png" alt="Bubble"></div>
-      </div>
-    </section>
-    <section class="corporis d-flex flex-wrap justify-content-center align-items-center margin-center">
-      <div class="corporis-content">
-        <span class="gray-text font-bold txt-uppercase">Quis autem</span>
-        <h2>Corporis suscipit laboriosam</h2>
-        <details class="details">
-          <summary class="summary gray-text source-font font-semi-bold relative">Totam rem aperiam</summary>
-          <p class="opacity gray-text source-font">Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumend a est, omnis dolor repellendus.</p>
-        </details>
-        <details class="details">
-          <summary class="summary gray-text source-font font-semi-bold relative">Eaque ipsa quae</summary>
-          <p class="opacity gray-text source-font">Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumend a est, omnis dolor repellendus.</p>
-        </details>
-        <details class="details">
-          <summary class="summary gray-text source-font font-semi-bold relative">Inventore veritatis</summary>
-          <p class="opacity gray-text source-font">Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumend a est, omnis dolor repellendus.</p>
-        </details>
-      </div>
-      <div class="corporis-video">
-        <div class="corporis-video-poster transition d-flex justify-content-center align-items-center"><button class="play-button d-flex justify-content-center align-items-center"><img src="./img/play.png" alt="Play_Icon"></button></div>
+      <div class="hero-p-container container">
+        <div class="hero-container container flex justify-between">
+          <article class="hero-content">
+            <h1 class="poppins-font">Omnis Voluptas</h1>
+            <p class="source-font">Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe
+              eveniet ut et voluptates repudiandae sint et molestiae non recusandae.</p><a href="#"
+              class="button yellow-button">Explore</a>
+          </article>
+          <ul class="social-media flex">
+            <li><a href="#" class="flex items-center justify-center" aria-label="Facebook"><i
+                  class="ri-facebook-fill"></i></a></li>
+            <li><a href="#" class="flex items-center justify-center" aria-label="Twitter"><i
+                  class="ri-twitter-x-fill"></i></a></li>
+            <li><a href="#" class="flex items-center justify-center" aria-label="Instagram"><i
+                  class="ri-instagram-fill"></i></a></li>
+          </ul>
+        </div><span class="bubble-top"></span><span class="bubble-bottom"></span><span
+          class="bubble-center"></span><span class="bubble-bottom-right"></span>
       </div>
     </section>
     <section class="ullam">
       <div class="ullam-container container">
-        <span class="font-bold text-uppercase gray-text">Nisi ut aliquid</span>
-        <div class="ullam-content d-flex flex-wrap">
-          <h2 class="gray-text">Ullam corporis suscipit</h2>
-          <p class="gray-text source-font">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
-        </div>
-        <div class="button-list d-flex align-items-center flex-wrap">
-          <button class="active source-font gray-text">Quis Autem</button>
-          <button class="source-font gray-text">Reprehenderit</button>
-          <button class="source-font gray-text">Voluptate</button>
-          <button class="source-font gray-text">Molestiae</button>
-          <button class="source-font gray-text">Consequatur</button>
-        </div>
-        <div class="image-card-wrapper d-flex align-items-center justify-content-center flex-wrap">
-          <article class="image relative">
-            <img src="./img/ullam-image-one.png" alt="">
-            <div class="image-contetn absolute d-flex">
-              <h3 class="white-text">Exercitation</h3>
-              <span class="opacity white-text source-font">Ullamco laboris</span>
-            </div>
-          </article>
-          <article class="image relative">
-            <img src="./img/ullam-image-two.png" alt="">
-            <div class="image-contetn absolute d-flex">
-              <h3 class="white-text">Exercitation</h3>
-              <span class="opacity white-text source-font">Ullamco laboris</span>
-            </div>
-          </article>
-          <article class="image relative">
-            <img src="./img/ullam-image-three.png" alt="">
-            <div class="image-contetn absolute d-flex">
-              <h3 class="white-text">Exercitation</h3>
-              <span class="opacity white-text source-font">Ullamco laboris</span>
-            </div>
+        <div class="ullam-content">
+          <h2 class="poppins-font">Nisi ut aliquid</h2>
+          <article class="flex justify-between flex-wrap">
+            <h3 class="poppins-font">Ullam corporis suscipit</h3>
+            <p class="source-font">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
+              consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui
+              dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora
+              incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
           </article>
         </div>
-        <div class="button-div text-center">
-          <a href="#" class="button pink-button">All works</a>
+        <div class="buttons-wrapper flex items-center flex-wrap source-font"><button class="active"
+            aria-label="Quis-Autem">Quis Autem</button><button aria-label="Reprehenderit">Reprehenderit</button><button
+            aria-label="Voluptate">Voluptate</button><button aria-label="Molestiae">Molestiae</button><button
+            aria-label="Consequatur">Consequatur</button></div>
+        <div class="ullam-images-wrapper flex items-center justify-center flex-wrap">
+          <div class="ullam-image-container"><img src="./images/ullam-image-one.png" alt="Ullam-Image" loading="lazy">
+            <div class="ullam-image-content">
+              <h3 class="poppins-font">Exercitation</h3>
+              <h4 class="source-font">Ullamco laboris</h4>
+            </div>
+          </div>
+          <div class="ullam-image-container"><img src="./images/ullam-image-two.png" alt="Ullam-Image" loading="lazy">
+            <div class="ullam-image-content">
+              <h3 class="poppins-font">Exercitation</h3>
+              <h4 class="source-font">Ullamco laboris</h4>
+            </div>
+          </div>
+          <div class="ullam-image-container"><img src="./images/ullam-image-three.png" alt="Ullam-Image" loading="lazy">
+            <div class="ullam-image-content">
+              <h3 class="poppins-font">Exercitation</h3>
+              <h4 class="source-font">Ullamco laboris</h4>
+            </div>
+          </div>
         </div>
+        <div class="ullam-button text-center"><a href="#" class="button purple-button">All works</a></div>
       </div>
     </section>
-    <section class="fugait container">
-      <h2 class="text-center gray-text">Fugiat quo</h2>
-      <p class="gray-text text-center source-font font-semi-bold">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
-      <div class="fugiat-card-wrapper d-flex align-items-center justify-content-center flex-wrap">
-        <article class="fugiat-card transition">
-          <h3 class="fugiat-card-title-one gray-text text-center relative">Consequuntur</h3>
-          <p class="fugiat-card-paragraph gray-text text-center source-font">Enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit</p>
+    <section class="fugiat container">
+      <h2 class="poppins-font text-center">Fugiat quo</h2>
+      <p class="source-font text-center">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+        doloremque laudantium, totam rem aperiam.</p>
+      <div class="fugiat-cards-wrapper flex items-center justify-center flex-wrap">
+        <article class="fugiat-card">
+          <h3 class="poppins-font text-center">Consequuntur</h3>
+          <p class="source-font text-center">Enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit</p>
         </article>
-        <article class="fugiat-card transition">
-          <h3 class="fugiat-card-title-two gray-text text-center relative">Voluptatem</h3>
-          <p class="fugiat-card-paragraph gray-text text-center source-font">Sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam</p>
+        <article class="fugiat-card">
+          <h3 class="poppins-font text-center">Voluptatem</h3>
+          <p class="source-font text-center">Sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam
+          </p>
         </article>
-        <article class="fugiat-card transition">
-          <h3 class="fugiat-card-title-three gray-text text-center relative">Quisquam</h3>
-          <p class="fugiat-card-paragraph gray-text text-center source-font">Quis nostrum exercitationem ullam corporis suscipit laboriosam</p>
+        <article class="fugiat-card">
+          <h3 class="poppins-font text-center">Quisquam</h3>
+          <p class="source-font text-center">Quis nostrum exercitationem ullam corporis suscipit laboriosam</p>
         </article>
-        <article class="fugiat-card transition">
-          <h3 class="fugiat-card-title-four gray-text text-center relative">Aliquid</h3>
-          <p class="fugiat-card-paragraph gray-text text-center source-font">Quis autem vel eum iure reprehenderit voluptate velit esse quam nihil</p>
+        <article class="fugiat-card">
+          <h3 class="poppins-font text-center">Aliquid</h3>
+          <p class="source-font text-center">Quis autem vel eum iure reprehenderit voluptate velit esse quam nihil</p>
         </article>
-        <article class="fugiat-card transition">
-          <h3 class="fugiat-card-title-five gray-text text-center relative">Excepteur</h3>
-          <p class="fugiat-card-paragraph gray-text text-center source-font">Sint occaecat cupidatat non proident culpa qui officia deserunt mollit anim</p>
+        <article class="fugiat-card">
+          <h3 class="poppins-font text-center">Excepteur</h3>
+          <p class="source-font text-center">Sint occaecat cupidatat non proident culpa qui officia deserunt mollit anim
+          </p>
         </article>
-        <article class="fugiat-card transition">
-          <h3 class="fugiat-card-title-six gray-text text-center relative">Accusamus</h3>
-          <p class="fugiat-card-paragraph gray-text text-center source-font">Odio dignissimos ducimus qui blanditiis praesentium voluptatum</p>
+        <article class="fugiat-card">
+          <h3 class="poppins-font text-center">Accusamus</h3>
+          <p class="source-font text-center">Odio dignissimos ducimus qui blanditiis praesentium voluptatum</p>
         </article>
-      </div>
+      </div><span class="bottom-bubble"></span>
     </section>
     <section class="temporibus">
-      <div class="temporibus-container container d-flex align-items-center justify-content-center flex-wrap relative">
-        <div class="temporibus-image relative border-radius">
-          <div class="image-group-background border-radius"></div>
-          <div class="absolute image-person-one border-radius"></div>
-          <div class="absolute image-person-two border-radius"></div>
-          <div class="absolute image-person-three border-radius"></div>
-          <div class="absolute image-person-four border-radius"></div>
-          <div class="absolute image-person-five border-radius"></div>
-        </div>
-        <div class="temporibus-content white-text">
-          <span class="text-uppercase font-bold">Repellendus</span>
-          <h2>Temporibus quibusdam</h2>
-          <p class="source-font font-semi-bold">Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est.</p>
-          <a href="#" class="yellow-button button transition">Our team</a>
-        </div>
-        <div class="bubble-tempo-top absolute"><img src="./img/b-t-top.png" alt=""></div>
-        <div class="bubble-tempo-left absolute"><img src="./img/b-t-left.png" alt=""></div>
-        <div class="bubble-tempo-center absolute"><img src="./img/b-t-center.png" alt=""></div>
+      <div class="temporibus-container container flex items-center justify-between flex-wrap">
+        <div class="temporibus-image"><img src="./images/temporibus-image.png" alt="image" loading="lazy"></div>
+        <article class="temporibus-content">
+          <h2 class="poppins-font">Repellendus</h2>
+          <h3 class="poppins-font">Temporibus quibusdam</h3>
+          <p class="source-font">Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus
+            id quod maxime placeat facere possimus, omnis voluptas assumenda est.</p><a href="#"
+            class="button yellow-button">Our team</a>
+        </article><span class="left-bottom-bubble"></span><span class="center-bottom-bubble">
       </div>
     </section>
-    <section class="officis">
-      <h2 class="text-center gray-text">Officis debitis</h2>
-      <p class="text-center source-font font-semi-bold">Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repella.</p>
-      <div class="officis-card-wrapper d-flex justify-content-center align-items-center flex-wrap">
-        <article class="review-card">
-          <q class="review-card-quot review-card-quot-one gray-text source-font">Voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis</q>
-          <span class="review-name source-font font-semi-bold gray-text">Evelyn Allen</span>
+    <section class="officis container">
+      <h2 class="poppins-font text-center">Officis debitis</h2>
+      <p class="source-font text-center">Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis
+        voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repella.</p>
+      <div class="officis-cards-wrapper flex items-center justify-center flex-wrap">
+        <article class="officis-card source-font"><img src="./images/officis-crad-1.png" alt="Portrait of Evelyn Allen"
+            loading="lazy"><q>Voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo
+            inventore veritatis</q>
+          <h3>Evelyn Allen</h3>
         </article>
-        <article class="review-card">
-          <q class="review-card-quot review-card-quot-two gray-text source-font">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores</q>
-          <span class="review-name source-font font-semi-bold gray-text">Malin Quist</span>
+        <article class="officis-card source-font"><img src="./images/officis-crad-2.png" alt="Portrait of Malin Quist"
+            loading="lazy"><q>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
+            consequuntur magni dolores</q>
+          <h3>Malin Quist</h3>
         </article>
-        <article class="review-card">
-          <q class="review-card-quot review-card-quot-three gray-text source-font">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci numquam eius</q>
-          <span class="review-name source-font font-semi-bold gray-text">Pan Su</span>
+        <article class="officis-card source-font"><img src="./images/officis-crad-3.png" alt="Portrait of Pan Su"
+            loading="lazy"><q>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci
+            numquam eius</q>
+          <h3>Pan Su</h3>
         </article>
       </div>
-      <div class="parteners-wrapper d-flex align-items-center justify-content-center flex-wrap">
-        <a href="#" class="parteners-logo transition"><img src="./img/partners-one.png" alt="Parteners_Logo"></a>
-        <a href="#" class="parteners-logo transition"><img src="./img/partners-two.png" alt="Parteners_Logo"></a>
-        <a href="#" class="parteners-logo transition"><img src="./img/partners-three.png" alt="Parteners_Logo"></a>
-        <a href="#" class="parteners-logo transition"><img src="./img/partners-four.png" alt="Parteners_Logo"></a>
-        <a href="#" class="parteners-logo transition"><img src="./img/partners-five.png" alt="Parteners_Logo"></a>
-        <a href="#" class="parteners-logo transition"><img src="./img/partners-six.png" alt="Parteners_Logo"></a>
-      </div>
+      <ul class="partner-logos flex items-center justify-center flex-wrap">
+        <li><a href="#"><img src="./images/partner-1.png" alt="Partner 1" loading="lazy"></a></li>
+        <li><a href="#"><img src="./images/partner-2.png" alt="Partner 2" loading="lazy"></a></li>
+        <li><a href="#"><img src="./images/partner-3.png" alt="Partner 3" loading="lazy"></a></li>
+        <li><a href="#"><img src="./images/partner-4.png" alt="Partner 4" loading="lazy"></a></li>
+        <li><a href="#"><img src="./images/partner-5.png" alt="Partner 5" loading="lazy"></a></li>
+        <li><a href="#"><img src="./images/partner-6.png" alt="Partner 6" loading="lazy"></a></li>
+      </ul>
     </section>
     <section class="omnis">
-      <div class="omnis-container d-flex align-items-center justify-content-center flex-wrap">
-        <div class="omnis-content">
-          <span class="omnis-span gray-text font-bold text-uppercase">Nisi ut aliquid</span>
-          <h2 class="omnis-title gray-text">Omnis voluptas assumenda</h2>
-          <p class="omnis-paragraph source-font font-semi-bold gray-text">Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est.</p>
-          <a href="#" class="pink-button button transition source-font white-text text-center font-bold">Our blog</a>
-        </div>
+      <div class="omnis-container container flex justify-between flex-wrap">
+        <article class="omnis-content">
+          <h2 class="poppins-font">Nisi ut aliquid</h2>
+          <h3 class="poppins-font">Omnis voluptas assumenda</h3>
+          <p class="source-font">Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus
+            id quod maxime placeat facere possimus, omnis voluptas assumenda est.</p><a href="#"
+            class="button purple-button">Our blog</a>
+        </article>
         <div class="omnis-image-container">
-          <div class="omnis-image transition d-flex">
-            <h3 class="white-text">Itaque earum rerum</h3>
-            <p class="image-paragraph white-text source-font">Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates</p>
-            <div class="profile">
-              <span class="d-flex align-items-center source-font white-text font-semi-bold">Adaora Azubuike</span>
-            </div>
+          <div class="omnis-image flex">
+            <h3 class="poppins-font"><a href="#">Itaque earum rerum</a></h3>
+            <p class="source-font">Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe
+              eveniet ut et voluptates</p>
+            <h4 class="source-font flex items-center"><a href="#">Adaora Azubuike</a></h4>
           </div>
         </div>
       </div>
     </section>
   </main>
   <footer class="footer">
-    <div class="footer-containr container">
-      <h2 class="gray-text">Contact Us</h2>
-      <p class="gray-text source-font font-semi-bold">Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas.</p>
-      <form action="" class="d-flex align-items-center flex-wrap justify-content-center">
-        <input class="input-email source-font gray-text" type="email" placeholder="Your email" required>
-        <a href="#" class="pink-button button transition">Send</a>
-      </form>
-    </div>
-    <div class="footer-links-container">
-      <div class="footer-links container d-flex align-items-center justify-content-center flex-wrap">
-        <ul>
-          <h3 class="gray-text source-font font-semi-bold">Consectetur</h3>
-          <li class="link"><a href="#" class="opacity gray-text source-font">Adipiscing</a></li>
-          <li class="link"><a href="#" class="opacity gray-text source-font">Elit</a></li>
-          <li class="link"><a href="#" class="opacity gray-text source-font">Eiusmod</a></li>
-        </ul>
-        <ul>
-          <h3 class="gray-text source-font font-semi-bold">Tempor</h3>
-          <li class="link"><a href="#" class="opacity gray-text source-font">Incididunt</a></li>
-          <li class="link"><a href="#" class="opacity gray-text source-font">Labore</a></li>
-          <li class="link"><a href="#" class="opacity gray-text source-font">Dolore</a></li>
-        </ul>
-        <ul>
-          <h3 class="gray-text source-font font-semi-bold">Magna</h3>
-          <li class="link"><a href="#" class="opacity gray-text source-font">Aliqua</a></li>
-          <li class="link"><a href="#" class="opacity gray-text source-font">Minim</a></li>
-          <li class="link"><a href="#" class="opacity gray-text source-font">Veniam</a></li>
-        </ul>
-        <div class="icons-copyrights d-flex">
-          <div class="social-media-icon-footer  d-flex align-items-center justify-content-center">
-            <a href="#" class="d-flex align-items-center justify-content-center transition"><i class="fa-brands fa-facebook-f pink-text transition"></i></a>
-            <a href="#" class="d-flex align-items-center justify-content-center transition"><i class="fa-brands fa-twitter pink-text transition"></i></a>
-            <a href="#" class="d-flex align-items-center justify-content-center transition"><i class="fa-brands fa-x-twitter pink-text transition"></i></a>
-          </div>
-          <p class="gray-text opacity source-font">Copyright 2019. All Rights Reserved.</p>
+    <div class="footer-top container">
+      <h2 class="poppins-font text-center">Contact Us</h2>
+      <p class="source-font text-center">Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil
+        molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas.</p>
+      <form class="footer-form source-font flex justify-center flex-wrap"><input class="email-input" type="email"
+          placeholder="Your email"> <input class="button purple-button" type="submit" value="Send"></form>
+    </div><span class="horizontal-line"></span>
+    <div class="footer-sub container flex flex-wrap justify-between">
+      <nav class="footer-nav flex flex-wrap items-center">
+        <div class="column-links source-font">
+          <h3 class="text-dark-gray">Consectetur</h3>
+          <ul class="flex">
+            <li><a href="#" aria-label="Adipiscing">Adipiscing</a></li>
+            <li><a href="#" aria-label="Elit">Elit</a></li>
+            <li><a href="#" aria-label="Eiusmod">Eiusmod</a></li>
+          </ul>
         </div>
+        <div class="column-links source-font">
+          <h3 class="text-dark-gray">Tempor</h3>
+          <ul class="flex">
+            <li><a href="#" aria-label="Incididunt">Incididunt</a></li>
+            <li><a href="#" aria-label="Labore">Labore</a></li>
+            <li><a href="#" aria-label="Dolore">Dolore</a></li>
+          </ul>
+        </div>
+        <div class="column-links source-font">
+          <h3 class="text-dark-gray">Magna</h3>
+          <ul class="flex">
+            <li><a href="#" aria-label="Aliqua">Aliqua</a></li>
+            <li><a href="#" aria-label="Minim">Minim</a></li>
+            <li><a href="#" aria-label="Veniam">Veniam</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div class="social-media-and-copyright">
+        <ul class="flex">
+          <li><a href="#" class="flex items-center justify-center" aria-label="Facebook"><i
+                class="ri-facebook-fill"></i></a></li>
+          <li><a href="#" class="flex items-center justify-center" aria-label="Twitter"><i
+                class="ri-twitter-x-fill"></i></a></li>
+          <li><a href="#" class="flex items-center justify-center" aria-label="Instagram"><i
+                class="ri-instagram-fill"></i></a></li>
+        </ul>
+        <p class="source-font text-dark-gray">Copyright 2019. All Rights Reserved.</p>
       </div>
     </div>
   </footer>
